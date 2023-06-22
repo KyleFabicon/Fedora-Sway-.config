@@ -36,8 +36,7 @@ output * bg ~/Downloads/fedora.png fill
 exec_always autotiling
 exec firefox
 exec alacritty -e $SHELL -c "~/findshare/startup.sh && exec $SHELL" &
-exec alacritty
-exec mysql-workbench
+exec dbeaver
 exec /opt/viber/Viber
 # Example configuration:
 #
@@ -236,7 +235,7 @@ for_window [class="^.*"] border pixel 2
 gaps inner 9
 focus_follows_mouse no
 assign [app_id="com.viber.Viber"] 3
-assign [class="Mysql-workbench-bin"] 3
+assign [app_id="DBeaver"] 3
 assign [app_id="firefox"] 2
 # for_window [app_id="Thunar"] opacity 0.5
 # class                 border  bground text    indicator child_border

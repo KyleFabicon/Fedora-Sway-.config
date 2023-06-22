@@ -1,3 +1,4 @@
 
 [Default Applications]
 x-scheme-handler/viber=viber.desktop
+x-scheme-handler/eclipse+command=_usr_share_dbeaver-ce_.desktop
